@@ -69,3 +69,55 @@ Permissions are assigned to:
 ### Step 1: Open Terminal and Check Current Directory
 ```bash
 pwd
+```
+<img width="953" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d494123-077a-4233-be86-ea188ec9a0b4" />
+
+### Step 2: List Files and Directories
+```bash
+ls
+ls-a
+```
+<img width="953" height="1080" alt="image" src="https://github.com/user-attachments/assets/fe2b6799-797c-40b7-ba76-06de4e5b0575" />
+
+### Step 3: Create and Enter Directory
+```bash
+```
+###Step 4: Create Files
+```bash
+touch file1.txt file2.txt
+```
+###Step 5: Edit File Using nano
+``` bash
+nano file1.txt
+```
+Type text
+Press Ctrl + O to save
+Press Ctrl + X to exit
+
+###Step 6: Edit File Using vi
+```bash
+vi file2.txt
+```
+Press i (Insert mode)
+Type text
+Press Esc
+Type :wq and press Enter
+###Step 7: Display File Content
+```bash
+cat file1.txt
+```
+###Step 8: Check File Permissions
+```bash
+ls -l
+```
+
+###Step 9: Change File Permissions
+```bash
+chmod 755 file1.txt
+```
+
+###Step 10: Verify Permissions
+```bash
+ls -l file1.txt
+```
+
