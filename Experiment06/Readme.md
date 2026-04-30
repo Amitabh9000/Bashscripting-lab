@@ -119,3 +119,10 @@ echo $DISPLAY
 ```
 
 ### Step 8: List X-related Processes
+```bash
+ps -e | grep X
+```
+
+## Screenshot
+_____________
+<img width="960" height="1080" alt="Screenshot 2026-04-30 185510" src="https://github.com/user-attachments/assets/97e236d5-d850-42c8-b7e5-129c745bbfc7" />
